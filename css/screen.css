@@ -1,0 +1,596 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* General */
+/* line 2, ../sass/general.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* line 3, ../sass/general.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 4, ../sass/general.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* line 6, ../sass/general.scss */
+p {
+  color: #95a5a6;
+}
+
+/* line 7, ../sass/general.scss */
+body {
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}
+
+/* line 9, ../sass/general.scss */
+section {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 14, ../sass/general.scss */
+.clear {
+  clear: both;
+}
+
+/* line 17, ../sass/general.scss */
+a:hover {
+  color: #1abc9c;
+}
+
+/* line 20, ../sass/general.scss */
+a:active {
+  color: #c83131;
+}
+
+/* line 23, ../sass/general.scss */
+a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 27, ../sass/general.scss */
+hr {
+  width: 90%;
+}
+
+/* line 30, ../sass/general.scss */
+.full-btn {
+  text-transform: uppercase;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 15px 50px;
+  font-family: "Rokkitt", serif;
+  font-size: 24px;
+  border: 10px solid rgba(120, 216, 197, 0.8);
+  display: table;
+  position: relative;
+  margin: auto;
+  top: -40px;
+}
+
+/* line 44, ../sass/general.scss */
+.full-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #78d8c5;
+  border: 10px solid #1abc9c;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+/* line 51, ../sass/general.scss */
+.full-btn:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 55, ../sass/general.scss */
+.view-more {
+  text-transform: uppercase;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 15px 30px;
+  font-family: "Rokkitt", serif;
+  font-size: 22px;
+  position: relative;
+  margin: 30px 0px;
+  border: none;
+}
+
+/* line 67, ../sass/general.scss */
+.view-more:hover {
+  background-color: #78d8c5;
+  color: #fff;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+/* line 1, ../sass/sections/main-cover.scss */
+.main-cover {
+  /*.navbar-toggle {
+  border: 1px solid #fff;
+  }*/
+}
+/* line 2, ../sass/sections/main-cover.scss */
+.main-cover {
+  position: relative;
+  background: url("../img/cover-image-2.jpg") no-repeat center right;
+  background-size: cover;
+  height: 500px;
+  max-height: 500px;
+  color: #ffffff;
+}
+/* line 10, ../sass/sections/main-cover.scss */
+.main-cover h1, .main-cover h2 {
+  text-align: center;
+}
+/* line 13, ../sass/sections/main-cover.scss */
+.main-cover h1 {
+  font-size: 60px;
+  font-family: "Rokkitt", serif;
+  margin-top: 100px;
+}
+/* line 18, ../sass/sections/main-cover.scss */
+.main-cover h2 {
+  font-size: 22px;
+  font-family: "Quicksand", sans-serif;
+}
+/* line 22, ../sass/sections/main-cover.scss */
+.main-cover .hr-main {
+  width: 50%;
+  color: #fff;
+}
+/* line 26, ../sass/sections/main-cover.scss */
+.main-cover .navbar-brand {
+  padding-top: 30px;
+}
+/* line 30, ../sass/sections/main-cover.scss */
+.main-cover #navbar-collapse {
+  padding-top: 20px;
+}
+/* line 32, ../sass/sections/main-cover.scss */
+.main-cover #navbar-collapse li > a {
+  color: #fff;
+}
+/* line 35, ../sass/sections/main-cover.scss */
+.main-cover #navbar-collapse li > a:hover {
+  color: #1abc9c;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 39, ../sass/sections/main-cover.scss */
+.main-cover #navbar-collapse .nav > li > a:focus, .main-cover #navbar-collapse .nav > li > a:hover {
+  background-color: transparent;
+}
+/* line 42, ../sass/sections/main-cover.scss */
+.main-cover #navbar-collapse img {
+  padding-top: 10px;
+}
+/* line 47, ../sass/sections/main-cover.scss */
+.main-cover a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* line 3, ../sass/sections/about-me.scss */
+.about-me {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+/* line 7, ../sass/sections/about-me.scss */
+.about-me h2 {
+  font-family: "Rokkitt", serif;
+  color: #1abc9c;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+/* line 16, ../sass/sections/about-me.scss */
+.about-me .dp-about {
+  font-size: 18px;
+  padding: 50px 80px;
+  font-weight: 400;
+}
+/* line 21, ../sass/sections/about-me.scss */
+.about-me h3 {
+  color: #1abc9c;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0;
+}
+/* line 27, ../sass/sections/about-me.scss */
+.about-me .sk {
+  text-align: left;
+  font-size: 15px;
+  padding: 20px 20px;
+  font-weight: 400;
+}
+
+/* line 2, ../sass/sections/portfolio.scss */
+.portfolio {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
+}
+/* line 7, ../sass/sections/portfolio.scss */
+.portfolio h2 {
+  font-family: "Rokkitt", serif;
+  font-size: 50px;
+  color: #1abc9c;
+  padding: 30px;
+}
+/* line 13, ../sass/sections/portfolio.scss */
+.portfolio .gallery {
+  padding: 50px 20px;
+}
+/* line 18, ../sass/sections/portfolio.scss */
+.portfolio .btn span {
+  padding-left: 10px;
+}
+/* line 23, ../sass/sections/portfolio.scss */
+.portfolio .zoom {
+  display: none;
+  position: absolute;
+  background-color: #1abc9c;
+  border: 5px solid rgba(120, 216, 197, 0.8);
+  height: 30px;
+  width: 30px;
+  top: 14%;
+  left: 76%;
+}
+/* line 33, ../sass/sections/portfolio.scss */
+.portfolio .caption {
+  display: none;
+  background-color: #1abc9c;
+  width: 400px;
+  height: 90px;
+  text-align: left;
+  padding: 10px 21px;
+  position: absolute;
+  top: 65%;
+  left: 15.8%;
+}
+/* line 44, ../sass/sections/portfolio.scss */
+.portfolio .caption h4 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+/* line 49, ../sass/sections/portfolio.scss */
+.portfolio .caption p {
+  color: #297465;
+  font-size: 14px;
+  font-family: #fff;
+}
+/* line 54, ../sass/sections/portfolio.scss */
+.portfolio .glyphicon {
+  padding-left: 10px;
+}
+/* line 57, ../sass/sections/portfolio.scss */
+.portfolio .vm {
+  padding-top: 45px;
+  padding-bottom: 55px;
+}
+
+/* line 2, ../sass/sections/contact.scss */
+.contact {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+/* line 7, ../sass/sections/contact.scss */
+.contact h2 {
+  font-family: "Rokkitt", serif;
+  font-size: 50px;
+  color: #1abc9c;
+  padding: 30px;
+}
+/* line 13, ../sass/sections/contact.scss */
+.contact input {
+  width: 80%;
+  background-color: #e4e8e8;
+  padding: 20px 20px;
+  border-left: none;
+  border-top: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  margin: 30px 0px;
+}
+/* line 23, ../sass/sections/contact.scss */
+.contact textarea {
+  position: relative;
+  min-height: 300px;
+  width: 90%;
+  background-color: #e4e8e8;
+  padding: 20px 20px;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 2, ../sass/sections/footer.scss */
+.ft {
+  margin-top: 80px;
+  position: relative;
+  display: block;
+  background-color: #1abc9c;
+}
+/* line 7, ../sass/sections/footer.scss */
+.ft h4 {
+  margin-bottom: 0px;
+}
+/* line 10, ../sass/sections/footer.scss */
+.ft .social-l, .ft .social-m, .ft .social-r {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border: 5px solid #1abc9c;
+  height: 90px;
+  width: 90px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  top: -30px;
+}
+/* line 22, ../sass/sections/footer.scss */
+.ft .social-l {
+  margin-left: 45px;
+}
+/* line 26, ../sass/sections/footer.scss */
+.ft .social-r {
+  margin-right: 40px;
+}
+/* line 29, ../sass/sections/footer.scss */
+.ft .copy, .ft .cb {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  font-family: "Rokkitt", serif;
+  color: #fff;
+  padding-bottom: 60px;
+}
+/* line 38, ../sass/sections/footer.scss */
+.ft .copy {
+  float: left;
+  padding-left: 60px;
+}
+/* line 42, ../sass/sections/footer.scss */
+.ft .cb {
+  float: right;
+  padding-right: 60px;
+}
+/* line 46, ../sass/sections/footer.scss */
+.ft .cb a:link {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 50, ../sass/sections/footer.scss */
+.ft .cb a:hover {
+  color: #0074c3;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+@media (min-width: 1200px) {
+  /* line 3, ../sass/main/responsive.scss */
+  .gallery a:hover .zoom, .gallery a:hover .caption {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  /* line 9, ../sass/main/responsive.scss */
+  .main-cover .navbar-toggle {
+    margin-top: 30px;
+    border: 1px solid #fff;
+  }
+
+  /* line 14, ../sass/main/responsive.scss */
+  .icon-bar {
+    background: #fff;
+  }
+
+  /* line 17, ../sass/main/responsive.scss */
+  .main-cover .navbar-brand {
+    margin-top: -70px;
+    padding-left: 0px;
+  }
+
+  /* line 22, ../sass/main/responsive.scss */
+  .main-cover #navbar-collapse li > a {
+    margin: 22px 8px;
+  }
+}
+@media (max-width: 992px) {
+  /* line 28, ../sass/main/responsive.scss */
+  .about-me .dp-about {
+    padding: 50px 30px;
+  }
+
+  /* line 31, ../sass/main/responsive.scss */
+  .ft .social-l {
+    margin-left: auto;
+  }
+
+  /* line 36, ../sass/main/responsive.scss */
+  .ft .social-r {
+    margin-right: auto;
+  }
+
+  /* line 40, ../sass/main/responsive.scss */
+  .portfolio .gallery {
+    padding: 15px 20px;
+  }
+
+  /* line 43, ../sass/main/responsive.scss */
+  .portfolio .vm {
+    padding-top: 45px;
+    padding-bottom: 55px;
+  }
+
+  /* line 47, ../sass/main/responsive.scss */
+  .view-more {
+    font-size: 18px;
+  }
+
+  /* line 50, ../sass/main/responsive.scss */
+  .contact textarea {
+    margin-top: 30px;
+  }
+
+  /* line 53, ../sass/main/responsive.scss */
+  .contact input {
+    width: 90%;
+  }
+}
+@media (max-width: 490px) {
+  /* line 58, ../sass/main/responsive.scss */
+  .ft .cb, .ft .copy {
+    display: block;
+    position: relative;
+    float: none;
+    text-align: center;
+    padding: 0 0 40px 0;
+  }
+
+  /* line 65, ../sass/main/responsive.scss */
+  .main-cover h1 {
+    font-size: 45px;
+  }
+
+  /* line 68, ../sass/main/responsive.scss */
+  .main-cover h2 {
+    font-size: 16px;
+  }
+
+  /* line 71, ../sass/main/responsive.scss */
+  .full-btn {
+    font-size: 15px;
+    padding: 10px 38px;
+  }
+
+  /* line 75, ../sass/main/responsive.scss */
+  .about-me h2 {
+    font-size: 25px;
+  }
+
+  /* line 78, ../sass/main/responsive.scss */
+  .about-me .dp-about {
+    font-size: 16px;
+  }
+
+  /* line 81, ../sass/main/responsive.scss */
+  .about-me h3 {
+    font-size: 18px;
+  }
+
+  /* line 84, ../sass/main/responsive.scss */
+  .portfolio h2 {
+    font-size: 35px;
+  }
+
+  /* line 87, ../sass/main/responsive.scss */
+  .contact h2 {
+    font-size: 35px;
+  }
+
+  /* line 90, ../sass/main/responsive.scss */
+  .cb {
+    padding-bottom: 50px;
+  }
+}

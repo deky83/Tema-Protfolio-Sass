@@ -1,0 +1,94 @@
+
+@media (min-width: 1200px) {
+	.gallery a:hover .zoom, .gallery a:hover .caption {
+			display: block;
+		}
+}
+@media (max-width: 768px) {
+
+	.main-cover .navbar-toggle {
+		margin-top: 30px;
+		border: 1px solid #fff;
+
+	}
+	.icon-bar {
+	    background: #fff;
+	}
+	.main-cover .navbar-brand {
+		margin-top: -70px;
+		padding-left: 0px;
+	}
+
+	.main-cover #navbar-collapse li > a {
+	    margin: 22px 8px;
+	}
+
+}
+@media (max-width: 992px) {
+	.about-me .dp-about {
+	    padding: 50px 30px;
+	}
+	.ft .social-l {
+		margin-left: auto;
+		
+	}
+	
+	.ft .social-r {
+		margin-right: auto;
+		
+	}
+	.portfolio .gallery {
+		padding: 15px 20px;
+	}
+	.portfolio .vm {
+		padding-top: 45px;
+		padding-bottom: 55px;
+		}
+	 .view-more {
+			font-size: 18px;
+	}
+	.contact textarea {
+		margin-top: 30px;
+	}
+	.contact input {
+		width: 90%;
+	}
+}
+@media (max-width: 490px) {
+	.ft .cb, .ft .copy {
+		display: block;
+	    position: relative;
+	    float: none;
+	    text-align: center;
+	    padding: 0 0 40px 0;
+	}
+	.main-cover h1 {
+		font-size: 45px;
+	}
+	.main-cover h2 {
+	    font-size: 16px;
+	}
+	.full-btn {
+		font-size: 15px;
+		padding: 10px 38px;
+	}
+	.about-me h2 {
+		font-size: 25px;
+	}
+	.about-me .dp-about {
+		font-size: 16px;
+	}
+	.about-me h3 {
+		font-size: 18px;
+	}
+	.portfolio h2 {
+		font-size: 35px;
+	}
+	.contact h2 {
+		font-size: 35px;
+	}
+	.cb {
+		padding-bottom: 50px;
+	}
+}
+

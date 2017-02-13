@@ -1,0 +1,35 @@
+
+.about-me {
+	& {
+		font-family: $main-font;
+		text-align: center;
+	}
+	h2 {
+		font-family: $sec-font;
+		color: $sec-clr;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 36px;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+	.dp-about {
+		font-size: 18px;
+		padding: 50px 80px;
+		font-weight: 400;
+	}
+	h3 {
+		color: $sec-clr;
+		font-weight: bold;
+		font-size: 20px;
+		padding: 20px 0;
+	}
+	.sk {
+		text-align: left;
+		font-size: 15px;
+		padding: 20px 20px;
+		font-weight: 400;
+		
+	}
+
+}  

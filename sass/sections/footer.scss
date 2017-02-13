@@ -1,0 +1,55 @@
+.ft {
+	& { margin-top: 80px;
+		position: relative;
+		display: block;
+		background-color: $sec-clr;
+	}
+	h4 {
+		margin-bottom: 0px;
+	}
+	.social-l, .social-m, .social-r {
+		position: relative;
+		display: block;
+		background-color: $main-clr;
+		border: 5px solid $sec-clr;
+	    height: 90px;
+		width: 90px;
+		padding-top: 20px;
+		text-align: center;
+		margin: 0 auto 50px auto;
+		top:-30px;
+	}
+	.social-l {
+		margin-left: 45px;
+	}
+	
+	.social-r {
+    	margin-right: 40px;
+	}
+	.copy, .cb {
+		position: relative;
+		display: inline-block;
+		font-size: 24px;
+		font-family: $sec-font;
+		color: $main-clr;
+		padding-bottom: 60px;
+
+	}
+	.copy {
+		float: left;
+		padding-left: 60px;
+	}
+	.cb {
+		float: right;
+		padding-right: 60px;
+	}
+	.cb a:link {
+		color: #fff;
+		text-decoration: none;
+	}
+	.cb a:hover {
+		color: #0074c3;
+		 @include transition(all 0.7s ease);
+	}
+	 
+}

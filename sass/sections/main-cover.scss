@@ -1,0 +1,61 @@
+.main-cover {
+        & { 
+            position: relative;
+            background: url('../img/cover-image-2.jpg') no-repeat  center right;
+            background-size: cover;
+            height: 500px;
+            max-height: 500px;
+            color: $sec-text-clr;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        h1 {
+            font-size: 60px;
+            font-family: $sec-font;
+            margin-top: 100px;
+        }
+        h2 {
+            font-size: 22px;
+            font-family: $main-font;
+        }
+        .hr-main {
+            width: 50%;
+            color: $main-clr;
+        }
+        .navbar-brand {
+            padding-top: 30px;
+        }
+        #navbar-collapse {
+            & {padding-top: 20px;}
+
+            li > a {
+                color:#fff;
+            }
+            li > a:hover { 
+                color: $sec-clr;
+                @include transition(all 0.3s ease);
+            }
+            .nav>li>a:focus, .nav>li>a:hover {
+                background-color: transparent;
+            }
+            img {
+                padding-top: 10px;
+            }
+        }
+
+        a {
+            color: $main-clr;
+            text-transform: uppercase;
+            font-family: 'Amatic SC', cursive;
+            font-weight: bold;
+            font-size: 22px;
+
+        }
+        /*.navbar-toggle {
+        border: 1px solid #fff;
+        }*/
+        
+
+    
+}

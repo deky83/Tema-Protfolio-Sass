@@ -1,0 +1,35 @@
+.contact {
+	& {
+		position: relative;
+		display: block;
+		text-align: center;
+	}
+	h2 {
+		font-family: $sec-font;
+		font-size: 50px;
+		color: $sec-clr;
+		padding: 30px;
+	}
+	input{
+		width: 80%;
+	    background-color: #e4e8e8;
+	    padding: 20px 20px;
+	    border-left: none;
+	    border-top: none;
+	    font-family: $main-font;
+	    font-size: 18px;
+	    margin: 30px 0px;
+	}
+	textarea {
+		position: relative;
+		min-height: 300px;
+		width: 90%;
+		background-color: #e4e8e8;
+	    padding: 20px 20px;
+	    border: none;
+	    font-family: $main-font;
+	    font-size: 18px;
+	    margin-bottom: 30px;
+
+	}
+}
